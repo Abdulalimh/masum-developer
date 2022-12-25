@@ -45,7 +45,7 @@ body{
     background-repeat: no-repeat ;
     background-position: right;
 }
-#shadow{
+.shadow{
     box-shadow: none;
     box-shadow: 20px 10px 40px gray;
     width: 40%;
@@ -53,9 +53,23 @@ body{
     margin-right: 5%;
     padding: 10px;
     border-radius: 10px;
+    
+    
    
+}
+#id-full-stack{
+    border-left:7px solid ;
+    border-image:linear-gradient(blue,cyan);
+    border-image: slice 1;
+
+}
+#id-full-stack2{
+    border-left:7px solid ;
+    border-image:linear-gradient(orange,rgb(123, 255, 0));
+    border-image: slice 1;
 }
 .Expriences{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
+    background: center;
 }
