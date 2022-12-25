@@ -4,7 +4,13 @@ h1{
 .abdul-orange{
     color: orange;
 }
-section{
+h2{
+    font-size: 40px;
+}
+h3{
+    color: orange;
+}
+.falaxibol{
     display: flex;
     margin-bottom: 100px;
 }
@@ -38,4 +44,18 @@ body{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat ;
     background-position: right;
+}
+#shadow{
+    box-shadow: none;
+    box-shadow: 20px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    border-radius: 10px;
+   
+}
+.Expriences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
 }
