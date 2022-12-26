@@ -46,30 +46,35 @@ body{
     background-position: right;
 }
 .shadow{
-    box-shadow: none;
+    
     box-shadow: 20px 10px 40px gray;
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
     padding: 10px;
     border-radius: 10px;
+    border-left:7px solid ;
     
     
    
 }
 #id-full-stack{
     border-left:7px solid ;
-    border-image:linear-gradient(blue,cyan);
-    border-image: slice 1;
+    border-image:linear-gradient(rgb(25, 25, 223),cyan);
+    border-image-slice: 1;
 
 }
 #id-full-stack2{
     border-left:7px solid ;
-    border-image:linear-gradient(orange,rgb(123, 255, 0));
-    border-image: slice 1;
+    border-image:linear-gradient(rgb(204, 65, 146),rgb(94, 124, 67));
+    border-image-slice: 1;
+
 }
 .Expriences{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-    background: center;
+    
+}
+footer p{
+    text-align: center;
 }
